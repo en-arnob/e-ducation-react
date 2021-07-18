@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.slick-arrow{
+    background: #b1a6a6 !important;
+    height: 35px !important;
+    width: 35px !important;
+    border-radius: 100px;
+    z-index: 5;
+}
+.slick-arrow:hover{
+    background: #0073E6 !important;
+    height: 40px !important;
+    width: 40px !important;
+}
+
+
