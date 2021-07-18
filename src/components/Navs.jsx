@@ -6,7 +6,7 @@ import { LinkContainer } from "react-router-bootstrap";
 const Navs = () => {
   return (
     <>
-      <Navbar bg="green-500" variant="dark" expand="lg">
+      <Navbar className='z-20' bg="green-500" variant="dark" expand="lg">
         <Navbar.Brand>
           {" "}
           <div className="flex">

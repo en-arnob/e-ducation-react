@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navs from "./components/Navs";
 import Dashboard from "./components/Dashboard";
-import Courses from "./components/Courses";
+import Courses from "./components/Courses/Courses";
 import Profile from "./components/Profile/Profile";
 function App() {
   return (
