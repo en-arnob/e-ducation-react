@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/*Course Carousel*/
 .slick-arrow{
     background: #b1a6a6 !important;
     height: 35px !important;
@@ -15,8 +15,10 @@
     height: 40px !important;
     width: 40px !important;
 }
+/*Course Carousel*/
 
-.sidenavClose {
+/*Course SideNav*/
+.sidenavCustom {
     height: 100%;
     width: 55px;
     position:fixed;
@@ -29,35 +31,10 @@
     padding-top: 80px;
 }
 
-.sidenavOpen {
-    height: 100%;
-    width: 180px;
-    position: fixed;
-    z-index: 10;
-    top: 0;
-    left: 0;
-    background-color: #141518;
-    overflow-x: hidden;
-    transition: 0.1s;
-    padding-top: 80px;
+.sideHiddenNav{
+    display: none !important;
 }
 
-.main-overlay-open{
-    display: block;
-    position: fixed;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 8;
-    background-color: rgba(0,0,0,0.5);
-    cursor: pointer;
-}
-.main-overlay-close{
-    z-index: 8;
-    display: none;
-}
 .NavItem{
     color:white !important;
 }
@@ -66,3 +43,12 @@
     text-decoration: none;
     font-size: 18px;
 }
+@media screen and (max-width: 992px) {
+    .sidenavCustom{
+        display: none !important;
+    }
+    .sideHiddenNav{
+        display: flex !important;
+    }
+}
+/*Course SideNav*/
