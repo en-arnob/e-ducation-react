@@ -50,5 +50,11 @@
     .sideHiddenNav{
         display: flex !important;
     }
+    .sideHiddenNav .nav-link{
+        border-left: 1px solid white !important;
+    }
+    .sideHiddenNav .nav-link:last-child{
+        border-right: 1px solid white !important;
+    }
 }
 /*Course SideNav*/
