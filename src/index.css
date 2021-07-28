@@ -3,58 +3,59 @@
 @tailwind utilities;
 
 /*Course Carousel*/
-.slick-arrow{
-    background: #b1a6a6 !important;
-    height: 35px !important;
-    width: 35px !important;
-    border-radius: 100px;
-    z-index: 5;
+.slick-arrow {
+  background: #b1a6a6 !important;
+  height: 35px !important;
+  width: 35px !important;
+  border-radius: 100px;
+  z-index: 5;
 }
-.slick-arrow:hover{
-    background: #0073E6 !important;
-    height: 40px !important;
-    width: 40px !important;
+.slick-arrow:hover {
+  background: #0073e6 !important;
+  height: 40px !important;
+  width: 40px !important;
 }
 /*Course Carousel*/
 
 /*Course SideNav*/
 .sidenavCustom {
-    height: 100%;
-    width: 55px;
-    position:fixed;
-    z-index: 10;
-    top: 0;
-    left: 0;
-    background-color: #141518;
-    overflow-x: hidden;
-    transition: 0.1s;
-    padding-top: 80px;
+  height: 100%;
+  width: 55px;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: #141518;
+  overflow-x: hidden;
+  transition: 0.1s;
+  padding-top: 80px;
 }
 
-.sideHiddenNav{
-    display: none !important;
+.sideHiddenNav {
+  display: none !important;
 }
 
-.NavItem{
-    color:white !important;
+.NavItem {
+  color: white !important;
 }
-.NavItem:hover{
-    color:#61DAFB !important;
-    text-decoration: none;
-    font-size: 18px;
+.NavItem:hover {
+  color: #61dafb !important;
+  text-decoration: none;
 }
 @media screen and (max-width: 992px) {
-    .sidenavCustom{
-        display: none !important;
-    }
-    .sideHiddenNav{
-        display: flex !important;
-    }
-    .sideHiddenNav .nav-link{
-        border-left: 1px solid white !important;
-    }
-    .sideHiddenNav .nav-link:last-child{
-        border-right: 1px solid white !important;
-    }
+  .sidenavCustom {
+    display: none !important;
+  }
+  .sideHiddenNav {
+    display: flex !important;
+  }
+  .sideHiddenNav .nav-link {
+    border-left: 1px solid white !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+  .sideHiddenNav .nav-link:last-child {
+    border-right: 1px solid white !important;
+  }
 }
 /*Course SideNav*/
